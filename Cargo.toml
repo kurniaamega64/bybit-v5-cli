@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "bybit-v5-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "Bybit v5 paper CLI — stub mark."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/bybit-v5-cli"
+
+[[bin]]
+name = "bybit-v5-cli"
+path = "src/main.rs"
